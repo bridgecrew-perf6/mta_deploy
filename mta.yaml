@@ -6,9 +6,9 @@ modules:
   type: hdb
   path: db
   requires:
-  - name: hdi_db
+  - name: app_mta_deploy-hdidb-ws-chn8z
 resources:
-- name: hdi_db
+- name: app_mta_deploy-hdidb-ws-chn8z
   type: com.sap.xs.hdi-container
   properties:
     hdi-container-name: ${service-name}
