@@ -1,0 +1,5 @@
+COLUMN TABLE "Customers" (
+	"ID" INTEGER ,
+	"NAME" NVARCHAR(256)      COMMENT 'Customer Name',   
+	"COUNTRY" NVARCHAR(256)   COMMENT 'Customer Country',
+	PRIMARY KEY ("ID") )
